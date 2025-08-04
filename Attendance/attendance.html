@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Workforce Attendance Hub</title>
+
+  <!-- Bootstrap CSS & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="attendance.css" />
+  <link rel="icon" href="modernsolutions.png" />
+</head>
+
+<body>
+  <div class="d-flex">
+    <!-- Sidebar -->
+    <nav class="sidebar bg-dark text-white">
+      <div class="sidebar-header text-center mb-4">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM_Oky3vdE4r06ofy3kTxj6LcLWhYbevSZ3w&s" alt="Logo" />
+      </div>
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="/Dashboard/dashboard.html">
+            <i class="bi bi-speedometer2 me-2"></i>Dashboard
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="/Employee/employee data.html">
+            <i class="bi bi-people me-2"></i>Employees
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-white fw-bold" href="../Attendance/attendance.html">
+            <i class="bi bi-calendar-check me-2"></i>Attendance
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="/Leave Request/leave request.html">
+            <i class="bi bi-envelope-open me-2"></i>Leave Requests
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="/Payroll/payroll.html">
+            <i class="bi bi-cash-stack me-2"></i>Payroll
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="/Perfomance Review/performance review.html">
+            <i class="bi bi-graph-up-arrow me-2"></i>Performance Reviews
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow-1">
+      <div class="header text-center mb-4">
+        <h1>Workforce Attendance Hub</h1>
+        <p id="current-date" class="text-muted">Loading date...</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="filter-buttons justify-content-center d-flex flex-wrap mb-4">
+        <button class="filter-btn " data-filter="all">All</button>
+        <button class="filter-btn" data-filter="present">Present</button>
+        <button class="filter-btn" data-filter="late">Late</button>
+        <button class="filter-btn" data-filter="absent">Absent</button>
+      </div>
+
+      <!-- Summary Cards -->
+      <div class="row g-4 text-center mb-4">
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <i class="fas fa-users"></i>
+              <h5>Total Staff</h5>
+              <p id="total-count" class="fs-4">0</p>
+              <span class="text-muted">100%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <i class="fas fa-check-circle text-success"></i>
+              <h5>On Time</h5>
+              <p id="present-count" class="fs-4">0</p>
+              <span id="present-percentage" class="text-muted">0%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <i class="fas fa-exclamation-circle text-warning"></i>
+              <h5>Delayed</h5>
+              <p id="late-count" class="fs-4">0</p>
+              <span id="late-percentage" class="text-muted">0%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <i class="fas fa-times-circle text-danger"></i>
+              <h5>Missing</h5>
+              <p id="absent-count" class="fs-4">0</p>
+              <span id="absent-percentage" class="text-muted">0%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Attendance Table -->
+      <div class="table-responsive">
+        <h4 class="mb-3">Staff Attendance Overview</h4>
+        <table class="table table-bordered table-hover align-middle">
+          <thead class="table-light">
+            <tr>
+              <th>#</th>
+              <th>Employee</th>
+              <th>Position</th>
+              <th>Department</th>
+              <th>Time-In</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="employee-table">
+            <!-- Populated by JS -->
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="attendance.js"></script>
+</body>
+
+</html>
