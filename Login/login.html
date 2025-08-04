@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="modernsolutions.png">
+    <link rel="stylesheet" href="login.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="overall" style="height: 350px;">
+    <form id="loginForm">
+        <div class="loginSet">
+            <h1> ModernTech Login</h1>
+            <h2><em>Welcome User!</em></h2>
+        </div>
+        <!-- employee logins in using their employee ID -->
+        <div class="adminDets"> 
+            <label for="hrid">HR ID: </label>
+            <input type="text" id="hrid" class="username" placeholder="username"  autocomplete="username" required>
+            <i class="bx bxs-user"></i>
+        </div>
+        <div class="adminDets">
+            <label for="password">Password: </label>
+            <input type="password" id="password" class="password" placeholder="password" autocomplete="current-password" required>
+            <i class="bx bxs-lock-alt"></i>
+        </div>
+        <!-- show password toggle -->
+         <div class="showPassword">
+            <label for="password"><input type="checkbox" id="showPassword" class="toggle-password"><img src="visibility_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"></label>
+         </div>
+        <!-- this feature ensures that the employee doesnt have to sign in again -->
+        <div class="rememberBox">
+            <label for="rememberMe"><input type="checkbox" id="rememberMe">Remember Me?</label>
+        </div>
+        <!-- used for convienence of the employee  -->
+        <div class="forgetPass">
+            <a href="#">Forgot Password?</a>
+        </div>
+        <div class="btn">
+            <button type="submit">LOGIN</button>
+        </div>
+    </form>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
