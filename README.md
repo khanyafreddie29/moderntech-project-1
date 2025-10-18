@@ -58,14 +58,13 @@ A comprehensive Human Resources Management System designed for ModernTech compan
    cd modern-tech-hr
 
 ## 🎯 Usage Guide
-🔑 Login Process
-Access System: Open the login page
-Enter Credentials:
-HR ID: Admin123
-Password: HR12345
-Optional Features:
-Check "Remember Me" to save HR ID
-Use eye icon to show/hide password
-Click "Forgot Password" for account recovery
-Submit: Click LOGIN to access dashboard
-   
+-🔑 Login Process
+- Access System: Open the login page
+- Enter Credentials:
+- HR ID: Admin123
+- Password: HR12345
+- Optional Features:
+- Check "Remember Me" to save HR ID
+- Use eye icon to show/hide password
+- Click "Forgot Password" for account recovery
+- Submit: Click LOGIN to access dashboard   
