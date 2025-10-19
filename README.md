@@ -13,11 +13,19 @@ A comprehensive Human Resources Management System designed for ModernTech compan
 - **Forgot Password** feature with email recovery simulation
 - **Local Storage** for session management
 
-### 👥 Employee Management
-- HR administrator access control
-- Employee profile management
-- Role-based access permissions
-- Secure credential storage
+### 📊 Dashboard & Analytics
+- **Real-time Metrics**: Total employees, attendance rates, pending leave requests
+- **Interactive Charts**: Attendance trends over time with Chart.js
+- **Leave Request Distribution**: Pie chart showing approved, pending, and denied requests
+- **Performance Review Summaries**: Employee performance insights and ratings
+- **Financial Overview**: Estimated payroll costs with South African Rand formatting
+
+### 👥 Employee Management Modules
+- **Employee Database**: Comprehensive employee records and profiles
+- **Attendance Tracking**: Daily presence/absence monitoring with historical data
+- **Leave Management**: Request submission, approval, and tracking system
+- **Payroll Processing**: Salary management and cost estimation
+- **Performance Reviews**: Employee evaluation system with rating categories
 
 ### 💻 User Experience
 - **Responsive Design** that works on desktop and mobile devices
