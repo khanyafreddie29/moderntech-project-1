@@ -39,18 +39,21 @@ A comprehensive Human Resources Management System designed for ModernTech compan
 - HTML5 with semantic markup
 - CSS3 with Flexbox and Grid layouts
 - Vanilla JavaScript (ES6+)
-- Google Fonts (Poppins)
+- Bootstrap 5.3.3 for UI components
+- Chart.js for data visualization
+- Bootstrap Icons for consistent iconography
+
+**Backend & Data:**
+- Local Storage for session persistence and data management
+- Client-side form validation and authentication
+- JSON-based data structure for employee records
+- Mock data simulation for demonstration purposes
+
+**Design & Styling:**
+- Google Fonts (Poppins, Segoe UI)
 - Custom CSS with glassmorphism effects
-
-**Security & Storage:**
-- Local Storage for session persistence
-- Client-side form validation
-- Secure authentication flow
-
-**Design:**
 - Responsive web design principles
-- Modern UI/UX patterns
-- Cross-browser compatibility
+- Professional color scheme with dark sidebar theme
 
 ## 📦 Installation & Setup
 
@@ -66,7 +69,7 @@ A comprehensive Human Resources Management System designed for ModernTech compan
    cd modern-tech-hr
 
 ## 🎯 Usage Guide
--🔑 Login Process
+🔑 Login Process
 - Access System: Open the login page
 - Enter Credentials:
 - HR ID: Admin123
