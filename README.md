@@ -20,12 +20,15 @@ A comprehensive Human Resources Management System designed for ModernTech compan
 - **Performance Review Summaries**: Employee performance insights and ratings
 - **Financial Overview**: Estimated payroll costs with South African Rand formatting
 
-### 👥 Employee Management Modules
-- **Employee Database**: Comprehensive employee records and profiles
-- **Attendance Tracking**: Daily presence/absence monitoring with historical data
-- **Leave Management**: Request submission, approval, and tracking system
-- **Payroll Processing**: Salary management and cost estimation
-- **Performance Reviews**: Employee evaluation system with rating categories
+### 👥 Employee Management Module
+- **Employee Database**: Comprehensive employee records with detailed profiles
+- **Search & Filter**: Real-time search by name and department filtering
+- **Employee Cards**: Visual employee profiles with avatars and status badges
+- **Status Tracking**: Active/On-Leave status indicators with color coding
+- **Department Organization**: Categorized employee listings
+- **Employment History**: Expandable sections for detailed work history
+- **Profile Images**: Employee photos with fallback placeholder avatars
+- **Local Storage**: Persistent employee data management
 
 ### 💻 User Experience
 - **Responsive Design** that works on desktop and mobile devices
