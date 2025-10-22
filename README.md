@@ -20,6 +20,16 @@ A comprehensive Human Resources Management System designed for ModernTech compan
 - **Performance Review Summaries**: Employee performance insights and ratings
 - **Financial Overview**: Estimated payroll costs with South African Rand formatting
 
+### 📅 Attendance Management Module
+- **Real-time Tracking**: Live attendance monitoring with status updates
+- **Visual Status Indicators**: Color-coded icons (Present/Late/Absent)
+- **Dynamic Filtering**: Filter by attendance status (All/Present/Late/Absent)
+- **Time-in Recording**: Automatic clock-in time generation
+- **Status Modification**: Real-time status updates with dropdown selection
+- **Local Storage**: Persistent attendance data management
+- **Summary Metrics**: Real-time percentage calculations and counts
+- **Employee Profiles**: Visual employee cards with profile images
+
 ### 👥 Employee Management Module
 - **Employee Database**: Comprehensive employee records with detailed profiles
 - **Search & Filter**: Real-time search by name and department filtering
@@ -29,6 +39,17 @@ A comprehensive Human Resources Management System designed for ModernTech compan
 - **Employment History**: Expandable sections for detailed work history
 - **Profile Images**: Employee photos with fallback placeholder avatars
 - **Local Storage**: Persistent employee data management
+
+### 📝 Leave Management Module
+- **Request Submission**: Comprehensive leave request form with validation
+- **Multiple Leave Types**: Sick leave, vacation, personal, and custom leave types
+- **Status Management**: Approve, deny, or remove leave requests
+- **Real-time Filtering**: Filter by status (All, Approved, Pending, Denied)
+- **Employee Integration**: Automatic employee status updates (Active/On Leave)
+- **Form Validation**: Client-side validation with proper error messages
+- **Date Validation**: Ensures start date is before end date
+- **Modal Interface**: Clean, professional form in Bootstrap modal
+- **Local Storage**: Persistent leave request data
 
 ### 💻 User Experience
 - **Responsive Design** that works on desktop and mobile devices
